@@ -6,7 +6,7 @@
     <title>Khalifai Coin</title>
     <style>
         body {
-            background-color: #000000;
+            background-color: #1a1a1a;
             color: #ff004c;
             font-family: Arial, sans-serif;
             margin: 0;
@@ -15,100 +15,103 @@
         }
 
         header {
-            padding: 20px;
-            background-color: #1a1a1a;
-            border-bottom: 3px solid #ff004c;
-            background-image: url('khalifai.jpg');
+            position: relative;
+            background-image: url('MAI.jpg');
             background-size: cover;
-            background-position: center top;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             color: #ffffff;
         }
 
         header h1 {
-            font-size: 3rem;
-            text-transform: uppercase;
+            font-size: 4rem;
+            text-shadow: 2px 2px 4px #000;
         }
 
         .slogan {
-            margin-top: 20px;
-            text-align: center;
+            background-color: #000;
             color: #ffcccc;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
+            padding: 10px 0;
+            text-transform: uppercase;
         }
 
         .container {
-            padding: 50px 20px;
+            padding: 30px 20px;
         }
 
-        .info {
-            margin: 30px 0;
+        .section {
+            margin: 20px 0;
         }
 
-        .info a {
-            color: #ff004c;
-            text-decoration: none;
-            font-size: 1.5rem;
-            font-weight: bold;
-            display: inline-block;
-            margin-top: 10px;
-        }
-
-        .info a:hover {
-            color: #ffffff;
-        }
-
-        .showcase {
-            margin: 50px 0;
-        }
-
-        .showcase img {
+        .section img {
             max-width: 80%;
             border: 5px solid #ff004c;
             border-radius: 10px;
         }
 
+        .links a {
+            display: block;
+            color: #ff004c;
+            font-size: 1.5rem;
+            text-decoration: none;
+            margin: 10px 0;
+        }
+
+        .links a:hover {
+            color: #ffffff;
+        }
+
+        .footer-image {
+            background-image: url('khalifai.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+        }
+
         footer {
-            margin-top: 50px;
-            padding: 20px;
-            background-color: #1a1a1a;
-            border-top: 3px solid #ff004c;
+            background-color: #000;
+            color: #ffcccc;
+            padding: 20px 0;
         }
 
         footer p {
-            color: #ffcccc;
             font-size: 1rem;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Khalifai Coin</h1>
+        <h1>MAI KHALIFAI COIN</h1>
     </header>
 
-    <div class="slogan">
-        <p>"F*ck, Invest, REPEAT"</p>
-    </div>
+    <div class="slogan">F*CK, INVEST, REPEAT</div>
 
     <div class="container">
-        <div class="info">
-            <p><strong>Wallet Address:</strong></p>
+        <div class="section">
+            <h2>Join Us</h2>
+            <div class="links">
+                <a href="https://x.com/Maikhaicoin?t=zLCK8eChjiiQWq_H36BTdw&s=09" target="_blank">Follow us on X</a>
+                <a href="https://t.me/joinchat" target="_blank">Join our Telegram</a>
+                <a href="https://dexscreener.com/" target="_blank">Check us on DexScreener</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Wallet Address</h2>
             <p id="wallet">COMING SOON...</p>
         </div>
 
-        <div class="info">
-            <p><strong>DexScreener Link:</strong></p>
-            <a id="dex" href="https://dexscreener.com/" target="_blank">Check on DexScreener</a>
-        </div>
-
-        <div class="info">
-            <p><strong>X Account:</strong></p>
-            <a id="twitter" href="https://x.com/Maikhaicoin?t=zLCK8eChjiiQWq_H36BTdw&s=09" target="_blank">Follow us on X</a>
-        </div>
-
-        <div class="showcase">
-            <img src="MAI.jpg" alt="Khalifai Coin Showcase">
+        <div class="section">
+            <h2>Meme Gallery</h2>
+            <p>Coming soon: A collection of NSFW memes and exclusive content celebrating the boldness of Khalifai Coin.</p>
         </div>
     </div>
+
+    <div class="footer-image"></div>
 
     <footer>
         <p>Copyright &copy; 2025 Khalifai Coin. All rights reserved.</p>
